@@ -20,6 +20,10 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+main > section{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
 
 /* ***************** */
 /* Shared Components */
@@ -33,7 +37,7 @@ main{
 .dark-2{
     color: #424242;
 }
-.dark-2{
+.dark-3{
     color: #727272;
 }
 .btn{
@@ -106,6 +110,40 @@ main{
     border-radius: 50px;
 }
 
+/* *********** */
+/* Teams Style */
+/* *********** */
+.teams{
+    max-width: 1440px;
+    align-items: center;
+
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px
+}
+.features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.quick-list{
+    font-weight: 500;
+}
+.feature-title .feature{
+    color: #FF900E;
+}
+.feature-desc{
+    margin-bottom: 20px;
+}
+
+
+
 @media screen and (max-width: 770px){
 
     .navbar{
@@ -132,4 +170,46 @@ main{
         margin: 50px auto;
         width: 80%;
     }
+    /* *********** */
+    /* Teams Style */
+    /* *********** */
+    .teams{
+        flex-direction: column;
+
+    }
+    .team-img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px
+    }
+    .features{
+        margin-left: 0;
+        margin-top: 30px;
+        max-width: 350px;
+    }
+    .feature-title{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width:771px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+
+    }
+    .team-img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px
+    }
+    .features{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .feature-title{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
 }
