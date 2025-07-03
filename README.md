@@ -3,7 +3,7 @@
 Welcome to **G3 Architects** – a modern, clean, and responsive landing page designed for architecture agencies. This project is perfect for practicing front-end development, responsive web design, and building professional business websites.
 
 ## 🚀 Live Demo
-👉 [Live Site](#) <!-- Replace with your live link -->
+👉 [Live Site](https://justmsarahat.github.io/G3-Architects/) <!-- Replace with your live link -->
 
 ---
 
